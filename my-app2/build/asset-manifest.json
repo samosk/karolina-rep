@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/karolina-rep/static/css/main.42703b80.css",
+    "main.js": "/karolina-rep/static/js/main.ae60545c.js",
+    "static/media/sushifilm.mp4": "/karolina-rep/static/media/sushifilm.71f5f7ae91b62fb9defb.mp4",
+    "static/media/karta2.png": "/karolina-rep/static/media/karta2.91fd96f2f5495150c4b0.png",
+    "static/media/karta3.png": "/karolina-rep/static/media/karta3.1b2daeb9721b24ca89dd.png",
+    "static/media/bild3.png": "/karolina-rep/static/media/bild3.a5c57d1278ae75237e34.png",
+    "static/media/bild1.png": "/karolina-rep/static/media/bild1.1654228379c7b3c41be3.png",
+    "static/media/hembild.jpg": "/karolina-rep/static/media/hembild.5952ae2476b724991c53.jpg",
+    "static/media/bild2.png": "/karolina-rep/static/media/bild2.5f796ac73c4ef76b1887.png",
+    "index.html": "/karolina-rep/index.html",
+    "main.42703b80.css.map": "/karolina-rep/static/css/main.42703b80.css.map",
+    "main.ae60545c.js.map": "/karolina-rep/static/js/main.ae60545c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42703b80.css",
+    "static/js/main.ae60545c.js"
+  ]
+}
