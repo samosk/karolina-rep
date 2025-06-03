@@ -2,9 +2,9 @@ import React from "react";
 import '../App.css';
 import Header from '../components/Header.jsx';
 import HamburgerMeny from '../components/HamburgerMeny.jsx';
+import config from "../config.js";
 
 //Bilder importeras
-import karta3 from '../assets/karta3.png';
 
 class Omoss extends React.Component {
 	render() {
@@ -46,7 +46,7 @@ class Omoss extends React.Component {
 							</a>
 						</div>
 						<div className="hittakarta">
-							<img src={karta3} alt="Karta till restaurangen" />
+							<img src={`${config.assetPath}../assets/karta3.png`} alt="Karta till restaurangen" />
 						</div>
 					</div>
 				</div>

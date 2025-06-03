@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
 import '../App.css';
-import Group18 from '../assets/Group18.png';
+import config from '../config';
 
 const HamburgerMeny = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const HamburgerMeny = () => {
 	return (
 		<div className="header small-header">
 			<div className="logga">
-				<Link to="/"><img src={Group18} alt="Restaurangens logga" /></Link>
+				<Link to="/"><img src={`${config.assetPath}../assets/Group18.png`} alt="Restaurangens logga" /></Link>
 			</div>
 
 			<div className="hamburger" onClick={toggleMenu}>

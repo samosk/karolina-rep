@@ -3,8 +3,7 @@ import '../App.css';
 import { Link, NavLink } from "react-router";
 
 // Bilder importeras
-import Group18 from '../assets/Group18.png'; 
-
+import config from "../config";
 class Header extends React.Component {
 	render() {
 		return (
@@ -12,7 +11,7 @@ class Header extends React.Component {
 				<nav>
 					<div className="headermeny">
 						<div className="logga">
-							<Link to="/"><img src={Group18} alt="Restaurangens logga" /></Link>
+							<Link to="/"><img src={`${config.assetPath}../assets/Group18.png`} alt="Restaurangens logga" /></Link>
 						</div>
 						<div className="menyval">
 							<ul>
