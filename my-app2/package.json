@@ -1,13 +1,14 @@
 {
-  "name": "javascript-bra",
+  "name": "karolina-rep",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://samosk.github.io/karolina-rep",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -18,10 +19,5 @@
     "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^6.3.0",
     "vite": "^5.4.19"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samosk/karolina-rep.git"
-  },
-  "homepage": "https://samosk.github.io/karolina-rep/"
+  }
 }
